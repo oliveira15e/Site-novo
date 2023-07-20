@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Ysabeau+Infant:wght@200&display=swap');
+
+.login {
+   position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 150px;
+  text-align: right;
+  font-size: 15px;
+} 
+.login a {
+  display: inline-block;
+  color: #ffffffbd;
+}
+.nav-bar{
+  display: flex;
+  box-shadow: 2px 4px 5px 2px  #fbfbfb13;
+  background: #aca8a87b;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+.bar{
+  list-style-type: none;
+}
+.bar a{
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 70px;
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+.imag{
+  background: url(/imagem/home.jpg);
+  background-position: center center;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.topics {
+  background-color: #aca8a87b;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  padding: 0px;
+  border-radius: 10px;
+}
+.topics ul li {
+  list-style-type: none;
+}
+.topics a {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+  text-decoration: none;
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-size: 20px;
+}
+.topics h3 {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+.topics p {
+  color: #ffffff;
+}
+.social-buttons {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 10px;
+  border-radius: 5em;
+  z-index: 9999;
+}
+.social-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #fff;
+  font-size: 1.2rem;
+  color: #333;
+  box-shadow: 0px 0px 15px #00000027;
+}
+.social-button:hover {
+  background-color: #f2f2f2;
+  box-shadow: 0px 0px 6px 3px #00000027;
+}
+.social-buttons svg {
+  transition: 0.3s;
+  height: 20px;
+}
+.facebook {
+  background-color: #3b5998;
+}
+.facebook svg {
+  fill: #f2f2f2;
+}
+.facebook:hover svg {
+  fill: #3b5998;
+}
+.discord {
+  background-color: #333;
+}
+.discord svg {
+  width: 25px;
+  height: 25px;
+  fill: #f2f2f2;
+}
+.discord:hover svg {
+  fill: #333;
+}
+.twitter {
+  background-color: #0077b5;
+}
+.twitter svg {
+  fill: #f2f2f2;
+}
+.twitter:hover svg {
+  fill: #0077b5;
+}
+.instagram {
+  background-color: #c13584;
+}
+.instagram svg {
+  fill: #f2f2f2;
+}
+.instagram:hover svg {
+  fill: #c13584;
+}
